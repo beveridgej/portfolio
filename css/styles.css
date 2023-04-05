@@ -1,0 +1,275 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.banner{
+    background-image: url("../images/beveridge_homem412.jpg");
+	background-size:cover;
+	background-position: center;
+	height:916px;
+	width: 100%;
+}
+
+.brand-a{
+	display: none;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+	
+}
+
+.navbar-toggler{
+	background-color: rgba(169,146,127,1);
+}
+
+.navbar-toggler-icon{
+	background-color: rgba(169,146,127,1) ;
+	border-radius: 10%;
+}
+
+.navbar-nav{
+	position: relative;
+    --bs-nav-link-color:white;
+	--bs-navbar-active-color: #9a1f2a;
+	font-family: poiret one;
+	background-color: rgb(170, 147, 128);
+	border-radius: 10px;
+	
+}
+
+.navbar-expand-sm {
+	text-align: center;
+	
+	
+}
+
+.nav-link:active{
+	color: rgba(169,146,127,1);
+}
+
+.nav-link:hover{
+	
+	background:linear-gradient(90deg, rgba(169,146,127,1) 0%, rgba(223,223,223,1) 100%);
+	border-radius: 10px;
+}
+
+
+
+.container-about{
+	background-color:#606962;
+}
+
+.container-contact{
+	background-color:#606962;
+}
+
+.container-web{
+	background-color:#606962;
+}
+
+.h1{
+	font-family:poiret one;
+	
+}
+
+.h1-web{
+	font-family: poiret one;
+	color: white;
+	margin-bottom: 50px;
+	
+}
+
+.h2{
+	font-family: poiret one;
+}
+
+/* about page styles */
+
+.heading-a{ 
+	display: none;
+}
+
+.about{
+	background:linear-gradient(90deg, rgba(169,146,127,1) 0%, rgba(223,223,223,1) 100%);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+
+.about-pic{
+	margin-top: 50px;
+}
+
+
+.aboutp {
+	
+	font-family: comfortaa;
+	color: white;
+	margin-top: 50px;
+	line-height: 2.0;
+	
+	
+}
+
+/* contact page styles */
+
+.imglogo{ 
+	position: relative;
+	top: 10%;
+	
+	
+}
+
+.imga{
+	position: absolute;
+	bottom: 0;
+}
+
+.form-label{
+	font-family: comfortaa;
+	color:white;
+	margin-top: 20px;
+}
+
+.btn-primary{
+	font-family: comfortaa;
+	color:#606962;
+	background:linear-gradient(90deg, rgba(169,146,127,1) 0%, rgba(223,223,223,1) 100%) ;
+	--bs-btn-hover-bg: rgba(223,223,223,1);
+	--bs-btn-border-color: rgba(223,223,223,1);
+	--bs-btn-hover-color:white;
+	
+	
+}
+
+.pic-1{
+	width: 100%;
+	height: auto;
+}
+
+.pic-4{
+	width: 100%;
+	height: auto;
+}
+
+
+@media screen and (min-width: 992px) {
+
+	.banner{	
+		background-image: url("../images/beveridge_homed-1920.jpg");
+	
+	}
+
+	.brand-a{
+		display: inline-block;
+	}
+
+	.logo-1{ 
+		position: relative;
+		top: 20%;
+		left: 75%;
+	}
+	
+	.heading-a{ 
+		display: block;
+		color: white;
+		position: absolute;
+		top: 50%;
+		left: 74%;
+	}
+
+	 .heading-b{ 
+		color: white;
+		position:absolute;
+		top:57%;
+		left:76%;
+
+	} 
+
+	.about{
+		background-color:linear-gradient(90deg, rgba(169,146,127,1) 0%, rgba(223,223,223,1) 100%);
+		margin-top: 0px;
+		padding-top: 275px;
+		padding-bottom: 275px;
+		max-width: 75%;
+		margin-left: 13%;
+		
+	}
+	
+	.aboutp {
+		color: white;
+		margin-top: 250px;
+	}
+
+	.about-pic{
+		margin-top: 150px;
+		max-width: 75%;
+		margin-left: 13%;
+		border-radius: 20%;
+	}
+
+	.pic-1{
+		border-radius: 1%;
+	}
+	
+	.pic-2{
+		border-radius: 1%;
+	}
+	
+	.pic-3{
+		margin-top: 10px;
+		border-radius: 1%;
+	}
+
+	.pic-4{
+		border-radius: 1%;
+	}
+
+	.section-web{
+		position: fixed;
+		top:15%;
+		left:13%;
+	}
+}
