@@ -60,20 +60,22 @@ table {
 }
 
 .navbar-toggler{
-	background-color: rgba(169,146,127,1);
+	background-color: rgb(83, 70, 60);
 }
 
 .navbar-toggler-icon{
-	background-color: rgba(169,146,127,1) ;
+	background-color: rgba(83, 70, 60) ;
 	border-radius: 10%;
+	color: white;
+	
 }
 
 .navbar-nav{
 	position: relative;
     --bs-nav-link-color:white;
-	--bs-navbar-active-color: #9a1f2a;
-	font-family: poiret one;
-	background-color: rgb(170, 147, 128);
+	--bs-navbar-active-color: white;
+	font-family: comfortaa;
+	background-color: #655243;
 	border-radius: 10px;
 	
 }
