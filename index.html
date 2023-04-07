@@ -36,7 +36,22 @@
     
     <main>
       <div class="banner">
-        <img src="images/logo_a.png" class="img-fluid logo-1  animate__animated animate__flipInX " alt="...">
+       
+        <picture>
+          
+          <source srcset="images/logo_a-100.png,
+          images/logo_a-300.png 2x,
+          images/logo_a-400.png 3x"
+          media="(max-width: 991px)"/>
+
+          <source srcset="images/logo_a-400.png, 
+          images/logo_a-500.png 2x,
+          images/logo_a-600.png 3x"
+          media="(min-width: 992px)"/>
+
+          <img src="images/logo_a.png" class="img-fluid logo-1  animate__animated animate__flipInX " alt="compass_logo">
+        </picture>
+       
         <h1 class="heading-a h1 animate__animated animate__fadeIn">Jon Beveridge </h1> <br>
         <h2 class="heading-b h2 animate__animated animate__fadeIn">Media Design</h2>
       </div>

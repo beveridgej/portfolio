@@ -39,7 +39,28 @@
     <main>
       
       <div class="container-fluid">
-          <div class=" imglogo" ><img src="images/create.png" class="imga img-fluid animate__animated animate__flipInX" alt="jon_beveridge_portrait"> </div>
+
+        
+
+          <div class=" imglogo" >
+           
+            <picture>
+
+              <source srcset="images/create-960.png,
+              images/create-1920.png 2x,
+              images/create-2400.png 3x"
+              media="(max-width: 991px)"/>
+    
+              <source srcset="images/create-800.png, 
+              images/create-1280.png 2x,
+              images/create-2400.png 3x"
+              media="(min-width: 992px)"/>
+
+            <img src="images/create.png" class="imga img-fluid animate__animated animate__flipInX" alt="lets_create_logo"> 
+          
+            </picture>
+          
+          </div>
       </div>
    
         <div class="container">

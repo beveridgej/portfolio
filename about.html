@@ -42,7 +42,25 @@
           <div class="row">
               <div class="col order-lg-2"><h1 class=" about text-center h1 animate__animated animate__fadeIn">About <br>Me</h1></div>
               
-              <div class="col-lg order-lg-1"> <img src="images/beveridge_about.jpg" class="about-pic img-fluid" alt="jon_beveridge_portrait"> </div>
+              <div class="col-lg order-lg-1"> 
+                
+                <picture>
+
+                  <source srcset="images/beveridge_about-960.jpg,
+                  images/beveridge_about-1920.jpg 2x,
+                  images/beveridge_about-2400.jpg 3x"
+                  media="(max-width: 991px)"/>
+        
+                  <source srcset="images/beveridge_about-800.jpg, 
+                  images/beveridge_about-2160.jpg 2x,
+                  images/beveridge_about-2400.jpg 3x"
+                  media="(min-width: 992px)"/>
+
+                <img src="images/beveridge_about.jpg" class="about-pic img-fluid" alt="jon_beveridge_portrait"> 
+              
+                </picture>
+              
+              </div>
             
               <div class="col-lg  order-lg-3"><p class=" aboutp text-justify text-breakd "> Hi my name is Jon and I'm a digital media creator specializing in front-end development and photography. 
                 Since I can remember I've always had a strong interest in capturing feeling with visuals and how they work

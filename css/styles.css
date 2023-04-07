@@ -194,6 +194,10 @@ table {
 	height: auto;
 }
 
+.photo{
+	width: 100%;
+}
+
 
 @media screen and (min-width: 992px) {
 
@@ -216,15 +220,15 @@ table {
 		display: block;
 		color: white;
 		position: absolute;
-		top: 50%;
-		left: 74%;
+		top: 60%;
+		left: 75%;
 	}
 
 	 .heading-b{ 
 		color: white;
 		position:absolute;
-		top:57%;
-		left:76%;
+		top:67%;
+		left:77%;
 
 	} 
 
