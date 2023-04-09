@@ -42,6 +42,24 @@ table {
 	border-spacing: 0;
 }
 
+.skip-links{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skip-links a{
+  position: absolute;
+  top: -3em;
+  background-color: black;
+  color:white;
+  padding: .5em 1em;
+  font-weight: bold;
+}
+
+.skip-links a:focus{
+	top: 0;
+  }
+
 .banner{
     background-image: url("../images/beveridge_homem412.jpg");
 	background-size:cover;
@@ -200,12 +218,15 @@ table {
 	width: 100%;
 }
 
+footer{
+	color: white;
+	margin-left: 20px;
+}
 
 @media screen and (min-width: 992px) {
 
 	.banner{	
 		background-image: url("../images/beveridge_homed-1920.jpg");
-	
 	}
 
 	.brand-a{
@@ -235,7 +256,7 @@ table {
 	} 
 
 	.about{
-		background-color:linear-gradient(90deg, rgba(169,146,127,1) 0%, rgba(223,223,223,1) 100%);
+		background:linear-gradient(90deg, rgba(169,146,127,1) 0%, rgba(223,223,223,1) 100%);
 		margin-top: 0px;
 		padding-top: 275px;
 		padding-bottom: 275px;
@@ -273,9 +294,10 @@ table {
 		border-radius: 1%;
 	}
 
-	.section-web{
-		position: fixed;
-		top:15%;
-		left:13%;
-	}
+	
+	
+
+
+
+
 }
