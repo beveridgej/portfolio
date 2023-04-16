@@ -42,6 +42,11 @@ table {
 	border-spacing: 0;
 }
 
+/* custom variable for background */
+:root {
+	--main-bg-color: #606962;
+  }
+
 /* adds styles to skip links */
 .skip-links{
   list-style: none;
@@ -123,15 +128,15 @@ table {
 
 /* adds background color to about, contact and web pages */
 .container-about{
-	background-color:#606962;
+	background-color: var(--main-bg-color);
 }
 
 .container-contact{
-	background-color:#606962;
+	background-color: var(--main-bg-color);
 }
 
 .container-web{
-	background-color:#606962;
+	background-color: var(--main-bg-color);
 }
 
 /* heading styles */ 
