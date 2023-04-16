@@ -42,6 +42,7 @@ table {
 	border-spacing: 0;
 }
 
+/* adds styles to skip links */
 .skip-links{
   list-style: none;
   margin: 0;
@@ -60,6 +61,7 @@ table {
 	top: 0;
   }
 
+/* adds image to mobile background */ 
 .banner{
     background-image: url("../images/beveridge_homem412.jpg");
 	background-size:cover;
@@ -68,15 +70,19 @@ table {
 	width: 100%;
 }
 
+ /* removes image logo on mobile */
 .brand-a{
 	display: none;
 }
+
+/* Makes nav transparent */
 .bg-body-tertiary {
     --bs-bg-opacity: 0;
     background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
 	
 }
 
+/* Nav styles */
 .navbar-toggler{
 	background-color: rgb(83, 70, 60);
 }
@@ -115,7 +121,7 @@ table {
 }
 
 
-
+/* adds background color to about, contact and web pages */
 .container-about{
 	background-color:#606962;
 }
@@ -128,6 +134,7 @@ table {
 	background-color:#606962;
 }
 
+/* heading styles */ 
 .h1{
 	font-family:poiret one;
 	
@@ -223,22 +230,27 @@ footer{
 	margin-left: 20px;
 }
 
+/* desktop styles */
 @media screen and (min-width: 992px) {
 
+	/* adds banner to desktop home page */
 	.banner{	
 		background-image: url("../images/beveridge_homed-1920.jpg");
 	}
 
+	/* displays logo on desktop */
 	.brand-a{
 		display: inline-block;
 	}
-
+	
+	/* displays logo and positions on home page */
 	.logo-1{ 
 		position: relative;
 		top: 20%;
 		left: 75%;
 	}
 	
+	/* heading styles and positons */
 	.heading-a{ 
 		display: block;
 		color: white;
@@ -255,6 +267,7 @@ footer{
 
 	} 
 
+	/* about page styles  */
 	.about{
 		background:linear-gradient(90deg, rgba(169,146,127,1) 0%, rgba(223,223,223,1) 100%);
 		margin-top: 0px;
@@ -277,6 +290,7 @@ footer{
 		border-radius: 20%;
 	}
 
+	/* image styles for web dev page */
 	.pic-1{
 		border-radius: 1%;
 	}
