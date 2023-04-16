@@ -151,6 +151,12 @@ table {
 	font-family: poiret one;
 }
 
+.heading-b{ 
+	display: none;
+} 
+
+
+
 /* about page styles */
 
 .heading-a{ 
@@ -211,6 +217,7 @@ table {
 	
 }
 
+
 .pic-1{
 	width: 100%;
 	height: auto;
@@ -225,6 +232,8 @@ table {
 	width: 100%;
 }
 
+
+/* footer styles */
 footer{
 	color: white;
 	margin-left: 20px;
