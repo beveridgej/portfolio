@@ -274,6 +274,7 @@ footer{
 	}
 
 	 .heading-b{ 
+		display: block;
 		color: white;
 		position:absolute;
 		top:67%;
